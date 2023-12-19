@@ -13,6 +13,16 @@
 		3562667E2B315DA800E2030A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3562667D2B315DA800E2030A /* Preview Assets.xcassets */; };
 		356266802B315DA800E2030A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3562667F2B315DA800E2030A /* Persistence.swift */; };
 		356266832B315DA800E2030A /* iOS_SwiftUI_Exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 356266812B315DA800E2030A /* iOS_SwiftUI_Exercise.xcdatamodeld */; };
+		3562668A2B315EF700E2030A /* ItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356266892B315EF700E2030A /* ItemDetailsView.swift */; };
+		3562668D2B315F7200E2030A /* NavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3562668C2B315F7200E2030A /* NavigationTitleView.swift */; };
+		3562668F2B31612D00E2030A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3562668E2B31612D00E2030A /* Colors.xcassets */; };
+		356266912B3164FB00E2030A /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356266902B3164FB00E2030A /* MainButtonView.swift */; };
+		356266932B316B1400E2030A /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356266922B316B1400E2030A /* DropDownView.swift */; };
+		356266962B31724B00E2030A /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356266952B31724B00E2030A /* BrandModel.swift */; };
+		356266982B31727900E2030A /* ModelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356266972B31727900E2030A /* ModelModel.swift */; };
+		3562669B2B31730D00E2030A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3562669A2B31730D00E2030A /* APIManager.swift */; };
+		3562669D2B317C1300E2030A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3562669C2B317C1300E2030A /* CustomTextField.swift */; };
+		3562669F2B31843F00E2030A /* DisplayTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3562669E2B31843F00E2030A /* DisplayTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +33,16 @@
 		3562667D2B315DA800E2030A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3562667F2B315DA800E2030A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		356266822B315DA800E2030A /* iOS_SwiftUI_Exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_SwiftUI_Exercise.xcdatamodel; sourceTree = "<group>"; };
+		356266892B315EF700E2030A /* ItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsView.swift; sourceTree = "<group>"; };
+		3562668C2B315F7200E2030A /* NavigationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleView.swift; sourceTree = "<group>"; };
+		3562668E2B31612D00E2030A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		356266902B3164FB00E2030A /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
+		356266922B316B1400E2030A /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		356266952B31724B00E2030A /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
+		356266972B31727900E2030A /* ModelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelModel.swift; sourceTree = "<group>"; };
+		3562669A2B31730D00E2030A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3562669C2B317C1300E2030A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		3562669E2B31843F00E2030A /* DisplayTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +77,12 @@
 			children = (
 				356266762B315DA700E2030A /* iOS_SwiftUI_ExerciseApp.swift */,
 				356266782B315DA700E2030A /* ContentView.swift */,
+				356266892B315EF700E2030A /* ItemDetailsView.swift */,
+				356266992B3172FC00E2030A /* Services */,
+				356266942B31723F00E2030A /* Models */,
+				3562668B2B315F6300E2030A /* Components */,
 				3562667A2B315DA800E2030A /* Assets.xcassets */,
+				3562668E2B31612D00E2030A /* Colors.xcassets */,
 				3562667F2B315DA800E2030A /* Persistence.swift */,
 				356266812B315DA800E2030A /* iOS_SwiftUI_Exercise.xcdatamodeld */,
 				3562667C2B315DA800E2030A /* Preview Content */,
@@ -71,6 +96,35 @@
 				3562667D2B315DA800E2030A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3562668B2B315F6300E2030A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3562668C2B315F7200E2030A /* NavigationTitleView.swift */,
+				356266902B3164FB00E2030A /* MainButtonView.swift */,
+				356266922B316B1400E2030A /* DropDownView.swift */,
+				3562669C2B317C1300E2030A /* CustomTextField.swift */,
+				3562669E2B31843F00E2030A /* DisplayTextView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		356266942B31723F00E2030A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				356266952B31724B00E2030A /* BrandModel.swift */,
+				356266972B31727900E2030A /* ModelModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		356266992B3172FC00E2030A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3562669A2B31730D00E2030A /* APIManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3562668F2B31612D00E2030A /* Colors.xcassets in Resources */,
 				3562667E2B315DA800E2030A /* Preview Assets.xcassets in Resources */,
 				3562667B2B315DA800E2030A /* Assets.xcassets in Resources */,
 			);
@@ -146,7 +201,16 @@
 				356266802B315DA800E2030A /* Persistence.swift in Sources */,
 				356266792B315DA700E2030A /* ContentView.swift in Sources */,
 				356266772B315DA700E2030A /* iOS_SwiftUI_ExerciseApp.swift in Sources */,
+				356266912B3164FB00E2030A /* MainButtonView.swift in Sources */,
+				3562669B2B31730D00E2030A /* APIManager.swift in Sources */,
+				3562668D2B315F7200E2030A /* NavigationTitleView.swift in Sources */,
+				356266932B316B1400E2030A /* DropDownView.swift in Sources */,
+				356266962B31724B00E2030A /* BrandModel.swift in Sources */,
+				3562669D2B317C1300E2030A /* CustomTextField.swift in Sources */,
+				3562668A2B315EF700E2030A /* ItemDetailsView.swift in Sources */,
+				3562669F2B31843F00E2030A /* DisplayTextView.swift in Sources */,
 				356266832B315DA800E2030A /* iOS_SwiftUI_Exercise.xcdatamodeld in Sources */,
+				356266982B31727900E2030A /* ModelModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
