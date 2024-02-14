@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		353B2EB42B3419A20062FF29 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353B2EB32B3419A20062FF29 /* ImagePicker.swift */; };
 		356266772B315DA700E2030A /* iOS_SwiftUI_ExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356266762B315DA700E2030A /* iOS_SwiftUI_ExerciseApp.swift */; };
 		356266792B315DA700E2030A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356266782B315DA700E2030A /* ContentView.swift */; };
 		3562667B2B315DA800E2030A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3562667A2B315DA800E2030A /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		353B2EB32B3419A20062FF29 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		356266732B315DA700E2030A /* iOS SwiftUI Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS SwiftUI Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		356266762B315DA700E2030A /* iOS_SwiftUI_ExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_SwiftUI_ExerciseApp.swift; sourceTree = "<group>"; };
 		356266782B315DA700E2030A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		3562668B2B315F6300E2030A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				353B2EB32B3419A20062FF29 /* ImagePicker.swift */,
 				3562668C2B315F7200E2030A /* NavigationTitleView.swift */,
 				356266902B3164FB00E2030A /* MainButtonView.swift */,
 				356266922B316B1400E2030A /* DropDownView.swift */,
@@ -201,6 +204,7 @@
 				356266802B315DA800E2030A /* Persistence.swift in Sources */,
 				356266792B315DA700E2030A /* ContentView.swift in Sources */,
 				356266772B315DA700E2030A /* iOS_SwiftUI_ExerciseApp.swift in Sources */,
+				353B2EB42B3419A20062FF29 /* ImagePicker.swift in Sources */,
 				356266912B3164FB00E2030A /* MainButtonView.swift in Sources */,
 				3562669B2B31730D00E2030A /* APIManager.swift in Sources */,
 				3562668D2B315F7200E2030A /* NavigationTitleView.swift in Sources */,
@@ -269,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -326,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -344,14 +348,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS SwiftUI Exercise/Preview Content\"";
-				DEVELOPMENT_TEAM = W6F34ZW4S8;
+				DEVELOPMENT_TEAM = 8ZK9AU8DHU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = NSCameraUsageDescription;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,14 +379,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS SwiftUI Exercise/Preview Content\"";
-				DEVELOPMENT_TEAM = W6F34ZW4S8;
+				DEVELOPMENT_TEAM = 8ZK9AU8DHU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = NSCameraUsageDescription;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

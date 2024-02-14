@@ -22,7 +22,7 @@ struct MainButtonView: View {
                 .frame(maxWidth: .infinity)
                 .background(Color.blue.opacity(disabled ? 0.5 : 1))
                 .foregroundStyle(.white)
-                .cornerRadius(18)
+                .clipShape(.rect(cornerRadius: 18))
                 .font(.system(size: 20, weight: .medium))
         }
         .disabled(disabled)

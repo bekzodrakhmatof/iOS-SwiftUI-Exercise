@@ -19,6 +19,8 @@ struct ContentView: View {
     
     @State var selectedItem: Item?
     @State var showDetailView = false
+    @State var takePhoto = false
+    @State var selectedImage: UIImage?
 
     var body: some View {
         VStack {
@@ -26,14 +28,30 @@ struct ContentView: View {
                 .padding(.horizontal)
             VStack {
                 ItemListView()
+                if let selectedImage = selectedImage {
+                    Image(uiImage: selectedImage)
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                }
+//                Button {
+//                    selectedItem = nil
+//                    showDetailView = true
+//                } label: {
+//                    Text("Add New Item")
+//                }
                 Button {
-                    selectedItem = nil
-                    showDetailView = true
+                takePhoto = true
                 } label: {
-                    Text("Add New Item")
+                    Text("Select Image")
                 }
             }
             .frame(maxHeight: .infinity)
+        }
+        .sheet(isPresented: $takePhoto) {
+            ImagePicker(mode: .openPhotos, selectedImage: $selectedImage, cancelHandler: {
+                
+            })
+                .ignoresSafeArea()
         }
         .sheet(isPresented: $showDetailView, content: {
             ItemDetailsView(item: $selectedItem)
